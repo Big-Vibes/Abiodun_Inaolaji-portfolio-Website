@@ -1,97 +1,106 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Abiodun Inaolaji — Mobile & Web Developer",
+  author: "Abiodun Inaolaji",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "A highly motivated computer scientist and Research Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Vibes-sm.png",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://x.com/AI_Abiodun_INA" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/inaolaji-abiodun/" },
+    { text: "Github", href: "https://github.com/Big-Vibes" },
+    { text: "Youtube", href: "https://www.youtube.com/@inaolajiabiodun6545" },
+    { text: "Dribbble", href: "https://dribbble.com/abiodun-inaolaji" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/vibesPortfolio.png",
+  canonicalURL: "https://Abiodun-Inaolaji.vercel.app", ////
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
+    name: "Abiodun Inaolaji",
     specialty: "Mobile & Web Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+          "A highly motivated computer scientist and System Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI.",
+    email: "abioduninaolaji12@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Codefest Hackathon",
+      position: "Lead Frontend Developer",
+      startDate: "May 2025",
+      endDate: "Sept 2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "I led a team of developers in builing a Therapeutic web application, integrating advance features such as real-time chat, Ai driven personalized content recommendations, and interactive user interfaces. This resulted in a 30% increase in user engagement and a 25% boost in user retention.",       
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Vitafoam Nigeria Limited",
+      position: "Intern Software and Hardware Engineer",
+      startDate: "Jun 2022",
+      endDate: "Oct 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed and integrated a real-time web application using Microsoft Power BI to visualize and analyze business data, improving accuracy and data update in the application. after testing the functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+        "I Engaged in hardware repairs and maintenance, successfully diagnosing and repairing over 100 hardware issues, resulting in a 20% reduction in downtime and a 15% increase in overall system reliability.",
+        "I collaborated with engineering team to manage cisco server room, backup data, fix and repair marewares issues, and ensure the security of the network infrastructure, leading to a 25% decrease in network downtime and a 20% improvement in overall system performance.",
+      ]
+    },
+     {
+      company: "Apple and Pears Limited",
+      position: "HR Officer and Research Analyst, NYSC",
+      startDate: "Nov 2024",
+      endDate: "Nov 2025",
+      summary: [
+        "I developed a system applications, the management system upload and takes employee data and generate reports, casual leave, medical leave, and stores their data for easy access, it was developed using React frontend, Express and Typescript Backend, and MongoDB, intiated Ai integration to automate data analysis and reporting, resulting in a 40% reduction in manual data processing time and a 30% increase in accuracy of employee performance insights.",
+        "I collaborated with Hardware team to manage and maintain the company's computer Hardwares, scale multiple servers, and ensuring optimal performance and security, leading to a 20% decrease in system downtime and a 15% improvement in overall system reliability.",
       ],
     },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
+     {
+      company: "Jilad Press",
+      position: "UI Designer and Frontend Developer",
+      startDate: "Jan 2017",
+      endDate: "Aug 2019",
+      summary: [
+        "I designed and developed user friendly interfaces web applications, integrating Html, css, and Javascript to create visually appealing and responsive designs.",
+        "I collaborated with the design team to ensure a seamless user experience and implemented responsive design principles to optimize the application for various devices.",
+      ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "RewardFlow_v1",
+      summary: "RewardFlow is a full-stack reward and task-based engagement platform. The project demonstrates real-world system design, combining a modern React and Go backend and a scalable database architecture (Mongodb).",
+      linkPreview: "/rewardFlow_v1.png",
+      linkSource: "https://github.com/Big-Vibes/RewardFlow_v1",
+      image: "/rewardFlow_v1.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "MindPal",
+      summary: "A therapeutic platform \"MindPal\" is an AI-powered chatbot that provides basic MHFA triage and support, uniquely trained in Pidgin and Hausa for cultural relevance and empathy, it a replicates the features of BetterHelp.",
+      linkPreview: "/MindPal.png",
+      linkSource: "https://github.com/Big-Vibes/MindPal",
+      image: "/MindPal.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "RewardFlow-v2-FULL-TYPESCRIPT",
+      summary: "A inspired project from RewardFlow-v1, RewardFlow is a full-stack reward and task-based engagement platform. The project demonstrates real-world system design, Full Typescript Frontend and backend and a scalable database architecture (PrismaORM, Neon Postgres).",
+      linkPreview: "/type.png",
+      linkSource: "https://github.com/Big-Vibes/TodoApp-RewardHub-Typescript-v1",
+      image: "/type.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+    Hi, i'm Abiodun Inaolaji highly motivated computer scientist and System Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI, I built a solid foundation in creating practical, user-focused solutions. Driven by the goal of bridging technological gaps, developing impactful digital experiences, and supporting technological growth in rural communities. Also experienced in computer networking, hardware repairs, and UI/UX design.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/Vibes.jpg",
   },
 };
 
