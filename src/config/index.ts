@@ -1,10 +1,10 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Abiodun Inaolaji — Mobile & Web Developer",
+  title: "Abiodun Inaolaji — Software Developer",
   author: "Abiodun Inaolaji",
   description:
-    "A highly motivated computer scientist and Research Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI.",
+    "A highly motivated computer scientist, Certified Data Protection Officer NDPC and Research Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI.",
   lang: "en",
   siteLogo: "/Vibes-sm.png",
   navLinks: [
@@ -20,18 +20,27 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Dribbble", href: "https://dribbble.com/abiodun-inaolaji" },
   ],
   socialImage: "/vibesPortfolio.png",
-  canonicalURL: "https://Abiodun-Inaolaji.vercel.app", ////
+  canonicalURL: "https://abiodun-inaolaji-portfolio-website-bk79zgorn.vercel.app", ////
 };
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Abiodun Inaolaji",
-    specialty: "Mobile & Web Developer",
+    specialty: "Software Developer",
     summary:
           "A highly motivated computer scientist and System Engineer skilled in React, Go, JavaScript, Python, Docker, and databases. With a strong curiosity for how hardware and software interact, especially in shaping the future of AI.",
     email: "abioduninaolaji12@gmail.com",
   },
   experience: [
+    {
+      company: "BantaHR Technology",
+      position: "Lead Software Developer x Product Manager",
+      startDate: "May 2026",
+      endDate: "2026 till date",
+      summary: [
+        "Built a Human Resource Information System that manages the recruitment framework, automates payroll, manages attendance, tracks performance, and empowers your people. It increases companies recruitment and workforce management efficiency by 50%. Bantahr is currently serving 40% of organisations in Nigeria.",     
+      ],
+    },
     {
       company: "Codefest Hackathon",
       position: "Lead Frontend Developer",
@@ -75,11 +84,18 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
-      name: "RewardFlow_v1",
-      summary: "RewardFlow is a full-stack reward and task-based engagement platform. The project demonstrates real-world system design, combining a modern React and Go backend and a scalable database architecture (Mongodb).",
-      linkPreview: "/rewardFlow_v1.png",
-      linkSource: "https://github.com/Big-Vibes/RewardFlow_v1",
-      image: "/rewardFlow_v1.png",
+      name: "Weekend Online",
+      summary: "Full Go backend, Google Cloud Compute Engine, GitHub Action, Docker and ThreeJs Animation and Typescript Discovery, Community Ticketing WebApp client can book, host event, and create community. Payment system | Ticketing | Rewards | Referrals | Communities | Bookings | Revenues",
+      linkPreview: "/weekend.png",
+      linkSource: "https://www.on-weekend.online",
+      image: "/weekend.png",
+    },
+     {
+      name: "BantaHr",
+      summary: "Production-grade HR platform with authentication, leave management, contract handling, OCR scanning, and RBAC. E-commerce App | React, Tailwind CSS Responsive storefront with product filtering, checkout, and performance optimizations via lazy-loading.",
+      linkPreview: "/BantaHr.png",
+      linkSource: "https://www.bantahr.com",
+      image: "/BantaHr.png",
     },
     {
       name: "MindPal",
